@@ -17,3 +17,10 @@ Most memory leaks are caused by bugs related to the lifecycle of objects. Here a
 ## Why should I use LeakCanary?
 Memory leaks are very common in Android apps and the accumulation of small memory leaks causes apps to run out of memory and crash with an OOM. LeakCanary will help you find and fix these memory leaks during development. When Square engineers first enabled LeakCanary in the Square Point Of Sale app, they were able to fix several leaks and reduced the OOM crash rate by 94%.
 
+
+
+
+https://user-images.githubusercontent.com/53623174/121777099-f54a4c80-cbad-11eb-8500-5b5b0f1a88a6.mp4
+
+Memory leak related isues will be displayed in notification. Once you click on the notification, You will get detailed explanation of the memory leak
+(Refer above video)
